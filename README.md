@@ -1,47 +1,42 @@
 [![The Super Tiny Compiler](https://cloud.githubusercontent.com/assets/952783/21579290/5755288a-cf75-11e6-90e0-029529a44a38.png)](the-super-tiny-compiler.js)
 
-***Welcome to The Super Tiny Compiler!***
+***欢迎来到超级迷你编译器!***
 
-This is an ultra-simplified example of all the major pieces of a modern compiler
-written in easy to read JavaScript.
+这是一个由简单易懂的 JavaScript 编写的现代编译器的简单例子，包含了所有主要功能。
 
-Reading through the guided code will help you learn about how *most* compilers
-work from end to end.
+阅读代码指南可以帮助您了解*大多数*编译器如何从头到尾工作。
 
-### [Want to jump into the code? Click here](the-super-tiny-compiler.js)
+### [查看代码，请点击这里](the-super-tiny-compiler.js)
 
-### [You can also check it out on Glitch](https://the-super-tiny-compiler.glitch.me/)
+### [你也可以点击这里，查看 Glitch](https://the-super-tiny-compiler.glitch.me/)
 
 ---
 
-### Why should I care?
+### 为何重视?
 
-That's fair, most people don't really have to think about compilers in their day
-jobs. However, compilers are all around you, tons of the tools you use are based
-on concepts borrowed from compilers.
+这很正常，大多数人在日常工作中并不需要考虑编译器如何工作。然而，编译器就在你身边，你使用的大量工具都是从编译器中借鉴的概念。
 
-### But compilers are scary!
+### 但编译器很可怕!
 
-Yes, they are. But that's our fault (the people who write compilers), we've
-taken something that is reasonably straightforward and made it so scary that
-most think of it as this totally unapproachable thing that only the nerdiest of
-the nerds are able to understand.
+是的，确实很可怕。但这是我们的错(编写编译器的人)，我们采取了一些相当简单的方式，让它变得如此可怕，大多数人认为这是完全不可接近的，只有那些讨厌的书呆子才能理解。
 
-### Okay so where do I begin?
+### 从哪里开始?
 
-Awesome! Head on over to the [the-super-tiny-compiler.js](the-super-tiny-compiler.js)
-file.
+切换到 [the-super-tiny-compiler.js](the-super-tiny-compiler.js) 文件。
 
-### I'm back, that didn't make sense
+### 我回来了，但这没什么意义
 
-Ouch, I'm really sorry. I'm planning on doing a lot more work on this to add
-inline annotations. If you want to come back when that's done, you can either
-watch/star this repo or follow me on
-[twitter](https://twitter.com/thejameskyle) for updates.
+我真的很抱歉。我准备在这方面做更多的工作来添加内联注释。如果你想在完成后看到，你可以 watch/star 该仓库或者关注我 [twitter](https://twitter.com/thejameskyle) 的更新。
 
-### Tests
+### 测试
 
-Run with `node test.js`
+运行 `node test.js`
+
+### 译者注
+
+本编译器从 [thejameskyle/the-super-tiny-compiler](https://github.com/thejameskyle/the-super-tiny-compiler) fork 而来。<br>
+我会针对于该编译器的内联注释**翻译成中文**。<br>
+还请大家多多关注。
 
 ---
 
