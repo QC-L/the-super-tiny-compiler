@@ -76,16 +76,16 @@
  */
 
 /**
- * Today we're going to write a compiler together. But not just any compiler... A
- * super duper teeny tiny compiler! A compiler that is so small that if you
- * remove all the comments this file would only be ~200 lines of actual code.
+ * 今天我们要一起编写一款编译器。但只是一款编译器...而是超级迷你编译器！
+ * 这是一款非常小的编译器，如果你删除所有的注释，该文件只有200行实际代码。
+ * 
  *
- * We're going to compile some lisp-like function calls into some C-like
- * function calls.
+ * 我们会将像 Lisp 的函数调用编译成像 C 的函数调用。
+ * 
  *
- * If you are not familiar with one or the other. I'll just give you a quick intro.
+ * 如果你不熟悉其中一个或另一个(语法)。我将快速的给你介绍下。
  *
- * If we had two functions `add` and `subtract` they would be written like this:
+ * 如果我们有两个函数 `add` 和 `subtract`, 它们将写成这样:
  *
  *                  LISP                      C
  *
@@ -93,11 +93,10 @@
  *   4 - 2          (subtract 4 2)            subtract(4, 2)
  *   2 + (4 - 2)    (add 2 (subtract 4 2))    add(2, subtract(4, 2))
  *
- * Easy peezy right?
+ * 非常简单，不是吗？
  *
- * Well good, because this is exactly what we are going to compile. While this
- * is neither a complete LISP or C syntax, it will be enough of the syntax to
- * demonstrate many of the major pieces of a modern compiler.
+ * 很好，因为这正是需要我们去编译的内容。虽然这并不是完整的 LISP 或 C 的语法，
+ * 但它也足以说明现代浏览器的许多主要部分。
  */
 
 /**
