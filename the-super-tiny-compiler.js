@@ -100,17 +100,17 @@
  */
 
 /**
- * Most compilers break down into three primary stages: Parsing, Transformation,
- * and Code Generation
+ * 编译器大多都分为三个主要阶段: 解析, 转换以及代码生成。
+ * 
  *
- * 1. *Parsing* is taking raw code and turning it into a more abstract
- *    representation of the code.
+ * 1. *解析* 是将原始代码转化为更为抽象的代码形式
+ * 
  *
- * 2. *Transformation* takes this abstract representation and manipulates to do
- *    whatever the compiler wants it to.
+ * 2. *转换* 接收这种抽象的表示形式，并操纵编译器做任何想做的事
  *
- * 3. *Code Generation* takes the transformed representation of the code and
- *    turns it into new code.
+ *
+ * 3. *代码生成* 接收代码的转换形式并将其转换为新代码
+ * 
  */
 
 /**
